@@ -1,0 +1,57 @@
+body{
+    background-image: url("VRfm.gif");
+    background-size: 100%;
+    position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+}
+.header{
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+h1, p{
+    font-family: "Kotta One", serif;
+    color: white;
+    text-shadow: 6px 0px 15px rgb(179, 0, 255);
+}
+
+.velocidade{
+    position: absolute;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Som{
+    position: absolute;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#somm, #velocidadee{
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+}
+
+button{
+    border-radius: 12px;
+    border-top: 6px solid blueviolet;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 20px;
+}
+
+h3{
+    font-family: "Kotta One", serif;
+    color: white;
+    text-shadow: 6px 0px 15px rgb(179, 0, 255);
+    font-size: 30px;
+}
+canvas{
+    margin-top: 100px;
+}

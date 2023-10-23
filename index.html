@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap" rel="stylesheet">
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>  
+    <title> Musica Do DJ Legal </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1>Música do DJ Super Ultra Legal</h1>
+        <p class="observation">Mova seu pulso esquerdo para cima e para baixo para controlar o volume, e o direito para controlar a velocidade.</p>
+        <button class="play" onclick="Comecar()">Começar</button>
+    </div>
+        <div class="velocidade">
+            <img src="disk.gif" id="velocidadee">
+            <h3>Velocidade: <label id="velocity"></label></h3>
+        </div>
+        <div class="Som">
+            <img src="disk.gif" id="somm">
+            <h3>Som: <label id="sound"></label></h3>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
